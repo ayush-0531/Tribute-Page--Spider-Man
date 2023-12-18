@@ -1,0 +1,71 @@
+body {
+            background-image: url(https://s1.bwallpapers.com/thumbs2/2014/01/06/spider-man-images_114622.jpg);
+            /* Using a background image using URl to put it in the backsite of the webpage */
+            
+            background-size: cover; 
+            /* using to cover complete web page by image */
+            background-position: center;
+            /* to put centre position as the base of the image */
+            margin-left: 40%;
+            margin-right: 5%;
+            /* taking margin 40% from the right of the page and 5% from the left of the page */
+        }
+
+        #title h1 {
+            text-align: center;
+            color: rgb(233, 233, 101,0.90);
+            text-decoration: underline;
+            text-shadow: 3px 3px 3px black;
+            font-family: cursive;
+        }
+
+        img {
+            display: block;
+            /* used this to use image as a block so that we can put it in centre with the help of margin */
+            margin: auto;
+            /* Margin auto will put the image in the centre. */
+        }
+
+        #Caption {
+            background-color: aqua;
+            color: darkblue;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 500;
+            text-decoration: underline dashed;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #main {
+            background-color: rgba(139, 46, 66, 0.5);
+            box-shadow: 15px 15px 15px;
+            /* created a shadow box with the help of this. */
+            margin: 50px 0px;
+            padding: 20px 20px;
+        }
+
+        .h2 {
+            font-size: 30px;
+            color: lightgreen;
+            font-family: cursive;
+            font-weight: 800;
+        }
+
+        #main p {
+            font-size: 20px;
+        }
+        #conclusion{
+            font-size: 20px;
+            background-color: antiquewhite;
+            color: brown;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a:hover{
+            border: 3px solid blue;
+            /* use a border when someone hover on the link. */
+        }
+        a:visited{
+            color: green;
+            /* Link colour change to green if it is visited by you. */
+        }
